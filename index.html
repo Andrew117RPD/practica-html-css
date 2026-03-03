@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Practice HTML CSS</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">MyLogo</div>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+<main>
+
+    <section class="articles">
+        <div class="card">
+            <div class="image-placeholder">80 × 80</div>
+            <h3>Article Title</h3>
+            <p>Article content goes here. This is a sample article content.</p>
+        </div>
+
+        <div class="card">
+            <div class="image-placeholder">80 × 80</div>
+            <h3>Article Title</h3>
+            <p>Article content goes here. This is a sample article content.</p>
+        </div>
+    </section>
+
+    <section class="contact">
+        <h2>Contact Form</h2>
+        <form>
+            <label>Name:</label>
+            <input type="text">
+
+            <label>Email:</label>
+            <input type="email">
+
+            <label>Message:</label>
+            <textarea></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <section class="scores">
+        <h2>Student Scores</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>HTML</th>
+                    <th>CSS</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John</td>
+                    <td>80</td>
+                    <td>90</td>
+                    <td>170</td>
+                </tr>
+                <tr>
+                    <td>Jane</td>
+                    <td>85</td>
+                    <td>95</td>
+                    <td>180</td>
+                </tr>
+                <tr class="total-row">
+                    <td colspan="3">Total</td>
+                    <td>350</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+</main>
+
+<footer>
+    Contact us at: info@example.com
+</footer>
+
+</body>
+</html>
