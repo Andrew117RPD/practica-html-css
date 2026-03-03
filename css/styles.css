@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+main {
+    padding: 40px;
+}
+
+.articles {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 60px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    width: 300px;
+}
+
+.image-placeholder {
+    background: #ddd;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    color: #888;
+    margin-bottom: 15px;
+}
+
+.contact form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+
+.contact input,
+.contact textarea {
+    margin-bottom: 15px;
+    padding: 8px;
+}
+
+.contact button {
+    width: 120px;
+    padding: 8px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #e0e0e0;
+}
+
+.total-row {
+    font-weight: bold;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    margin-top: 60px;
+}
